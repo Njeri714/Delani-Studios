@@ -37,3 +37,9 @@
     display: flex;
     justify-content: center;
 }
+#services{
+    color: white;
+    text-align: center;
+    background-image: url(/backgrounds/s_image.jpg);
+    background-size: cover;
+}
