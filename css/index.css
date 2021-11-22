@@ -45,6 +45,11 @@
     background-size: cover;
 }
 
+h5{
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
 .development-description,
 .design-description,
 .product-description {
