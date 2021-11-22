@@ -37,9 +37,21 @@
     display: flex;
     justify-content: center;
 }
+
 #services{
     color: white;
     text-align: center;
     background-image: url(/backgrounds/s_image.jpg);
     background-size: cover;
+}
+
+.development-description,
+.design-description,
+.product-description {
+  display: none;
+  font-size: 1.4rem;
+  line-height: 2.5rem;
+}
+img:hover {
+  cursor: pointer;
 }
