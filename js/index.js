@@ -1,10 +1,10 @@
 // what we do
 $(document).ready(function () {
-    $(".design-image").click(function () {
+    $(".design-icon").click(function () {
       $(".design-description").toggle();
-      $(".design-image").hide();
+      $(".design-icon").hide();
       $(".design, .design-description").click(function () {
-        $(".design-image").show();
+        $(".design-icon").show();
         $(".design-description").hide();
       });
     });
