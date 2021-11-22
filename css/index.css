@@ -50,6 +50,7 @@ h5{
     font-weight: bold;
     font-size: 1.5rem;
 }
+
 .development-description,
 .design-description,
 .product-description {
@@ -57,6 +58,31 @@ h5{
   font-size: 1.4rem;
   line-height: 2.5rem;
 }
+
 img:hover {
   cursor: pointer;
+}
+
+.about-tittle{
+text-align: center;
+}
+
+.what-we-do{
+    display: flex;
+    justify-content: center;
+}
+
+.design-icon{
+    display: flex;
+    justify-content: center;
+}
+
+.development-icon{
+    display: flex;
+    justify-content: center;
+}
+
+.product-icon{
+    display: flex;
+    justify-content: center;
 }
