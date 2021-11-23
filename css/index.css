@@ -111,3 +111,15 @@ input[type=submit]:hover{
     color: black;
     background-color: rgba(255, 255, 255,0.7);
 }
+.footer{
+    padding: 20px;
+}
+.follow-like{
+    display: flex;
+   justify-content: center;
+}
+
+.pim{
+    display: flex;
+    justify-content: center;
+}
