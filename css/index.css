@@ -87,6 +87,41 @@ text-align: center;
     padding:20px;
 }
 
+.girr{
+    display: flex;
+    float: right;
+    margin-top: -300px;
+    /* margin-right: 10px; */
+}
+.form-colls{
+    display: flex;
+    justify-content: space-between;
+    column-gap: 20px;
+    flex-wrap: wrap;
+}
+
+form{
+    margin: auto;
+    width: max-content;
+    text-align: right;
+}
+
+textarea{
+    background-color: inherit;
+    width: 590px;
+    resize: none;
+    height: 150px;
+    margin-top: 30px;
+    border-left:2px solid #fff;
+    border-right:2px solid #fff;
+    padding-left:20px;
+    outline:none;
+    color:#fff;
+}
+::placeholder{
+  color: #fff;
+}
+
 #contactus{
     text-align: center;
     color: #fff;
@@ -96,6 +131,15 @@ text-align: center;
     height: 450px;
 }
 
+input[type=text],input[type=email]{
+    width: 300px;
+    background-color: inherit;
+    border: 0.5px solid rgba(255, 255, 255,0.5);
+    border-left:2px solid #fff;
+    padding-left:20px;
+    outline:none;
+    color:#fff;
+}
 
 input[type=submit]{
     width:100%;
