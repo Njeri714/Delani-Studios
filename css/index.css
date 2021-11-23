@@ -67,17 +67,6 @@ img:hover {
 text-align: center;
 }
 
-/* .what-we-do{
-    display: flex;
-    justify-content: center;
-} */
-
-/* .design-icon
-.development-icon
-.product-icon{
-    display: flex;
-    justify-content: space-between;
-} */
 .what{
     display: flex;
     justify-content: space-between;
