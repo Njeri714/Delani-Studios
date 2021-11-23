@@ -26,3 +26,22 @@ $(document).ready(function () {
     });
   });
 // what we do ends
+// contact
+const validation = () =>{
+  var name = document.getElementById("submit").value.trim();
+  var username = document.getElementById("username").value.trim();
+  var usermail = document.getElementById("usermail").value.trim();
+  var message = document.getElementById("message").value.trim();
+  if(name == "" || username == "" || usermail == "" || message == ""){
+      alert("please fill all fields");
+      return false;
+  }else{
+     alert("Thank you"+username + "for contacting us");
+     var name = document.getElementById("submit").value="";
+     var username = document.getElementById("username").value="";
+     var usermail = document.getElementById("usermail").value="";
+     var message = document.getElementById("message").value="";
+      return false;
+  }
+}
+// contact
